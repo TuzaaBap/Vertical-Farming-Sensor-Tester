@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 
 # Relay GPIO pins
-relay_pins = [16, 12, 28, 23]
+relay_pins = [16, 12, 28, 23]  # change this relay pins according to your requirement
 
 # Setup
 GPIO.setmode(GPIO.BCM)
