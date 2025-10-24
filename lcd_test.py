@@ -3,7 +3,7 @@ import time
 
 # Adjust based on your display size
 lcd = CharLCD(i2c_expander='PCF8574', address=0x27, port=1,
-              cols=20, rows=4, charmap='A00', auto_linebreaks=True)
+              cols=20, rows=4, charmap='A00', auto_linebreaks=True)   #the display is LCD2004
 
 lcd.clear()
 
