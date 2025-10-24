@@ -3,7 +3,7 @@ import board
 import adafruit_dht
 
 # Use GPIO20 (physical pin 38)
-dht_sensor = adafruit_dht.DHT11(board.D20)
+dht_sensor = adafruit_dht.DHT11(board.D20) # if using anyother pin change it to as per requirement 
 
 while True:
     try:
