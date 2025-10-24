@@ -80,22 +80,7 @@ Integrate with your existing broker (e.g., Mosquitto) or forward to a Pi 5 dashb
 - **Spectral (AS7341)**: Normalize counts and record dark current; consider integration time and gain.
 - **CO₂ (SCD4x)**: Perform forced recalibration per vendor docs if available.
 
-## Repo layout (top level)
 
-```
-- .gitignore
-- LICENSE
-- README.md
-- Website-Flask
-- ads1115_test.py
-- as7341_test.py
-- dht11_test.py
-- digital_temp_humidity.py
-- display.py
-- lcd_test.py
-- relay.py
-- scd4x_test.py
-```
 
 ## License
 MIT — see `LICENSE`.
