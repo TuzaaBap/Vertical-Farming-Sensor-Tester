@@ -84,4 +84,4 @@ Integrate with your existing broker (e.g., Mosquitto) or forward to a Pi 5 dashb
 
 ## License
 MIT — see `LICENSE`.
-- **Free for personal and educational use. Attribution appreciated.
+- Free for personal and educational use. Attribution appreciated.
